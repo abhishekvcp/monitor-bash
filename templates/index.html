@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>System Metrics</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    th, td {
+      text-align: left;
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>System Metrics</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Date/Time</th>
+        <th>CPU Usage</th>
+        <th>Memory Usage</th>
+        <th>Top 10 CPU Consuming Processes Abhi</th>
+        <th>Top 10 Memory Consuming Processes</th>
+        <th>Top 10 Processes Occupying Swap Memory</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for line in last_lines %}
+      <tr>
+        {% for part in line.split(' ') %}
+        <td>{{ part }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

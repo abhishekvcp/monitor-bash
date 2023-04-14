@@ -1,0 +1,42 @@
+2023-04-14_15-30-00,15.7,45.3
+Top 10 CPU consuming processes:
+  PID %CPU COMMAND
+  123 25.5 process1
+  456 13.2 process2
+  123 25.5 process3
+  456 13.2 process4
+  123 25.5 process5
+  456 13.2 process6
+  123 25.5 process7
+  456 13.2 process8
+  123 25.5 process9
+  456 13.2 process10
+Top 10 memory consuming processes:
+  PID %MEM COMMAND
+  789 13.2 process31
+  1011 11.5 process4 
+  789 13.2 process33
+  1011 11.5 process44 
+  789 13.2 process33
+  1011 11.5 process44 
+  789 13.2 process323
+  1011 11.5 process23
+  789 13.2 process12
+  1011 11.5 process34 
+  789 13.2 process56
+  1011 11.5 process78 
+Top 10 processes occupying swap memory:
+  Type      Size     Used     Priority    Process
+  Partition 1024 MB 512 MB   -2          process5
+  Partition 512 MB  256 MB   -1          process6
+  Partition 1024 MB 512 MB   -2          process7
+  Partition 512 MB  256 MB   -1          process8
+  Partition 1024 MB 512 MB   -2          process9
+  Partition 512 MB  256 MB   -1          process23
+  Partition 1024 MB 512 MB   -2          process3
+  Partition 512 MB  256 MB   -1          process4
+  Partition 1024 MB 512 MB   -2          process5
+  Partition 512 MB  256 MB   -1          process67
+  
+
+  
